@@ -116,7 +116,7 @@ export default new Router({
             },
             {
               path: 'table-student',
-              component: TableStudent,
+              component: TableStudent
             },
             {
               path: 'edit-student/:id',
@@ -125,7 +125,7 @@ export default new Router({
           ]
         },
         {
-          path:'teacher',
+          path: 'teacher',
           name:'Teacher',
           component: Teacher,
           children : [
@@ -135,8 +135,9 @@ export default new Router({
             },
             {
               path: 'table-teacher',
-              component: TableTeacher,
+              component: TableTeacher
             },
+            
             {
               path: 'edit-teacher/:id',
               component: EditTeacher
@@ -167,4 +168,3 @@ export default new Router({
    
   ]
 })
-router.push({ name: 'user', params: { userId: '123' } })

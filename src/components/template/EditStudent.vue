@@ -2,22 +2,22 @@
     <div class="container mt-5">
         <div class="col-md-6">
             <h2>Edit student</h2>
-        <form @submit="updateStudent">
-            <div class="form-group">
-                <label for="">Name</label>
-                <input type="text" class="form-control" v-model="student.name">
-            </div>
+            <form @submit="updateStudent">
+                <div class="form-group">
+                    <label for="">Name</label>
+                    <input type="text" class="form-control" v-model="student.name">
+                </div>
 
-            <div class="form-group">
-                <label for="">Email</label>
-                <input type="text" class="form-control" v-model="student.email">
-            </div>
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="text" class="form-control" v-model="student.email">
+                </div>
 
-            <div class="form-group">
-                <button class="btn btn-success" @click="redirect" name="submit" value="submit">Update</button>
-            </div>
+                <div class="form-group">
+                    <button class="btn btn-success" @click="redirect" name="submit" value="submit">Update</button>
+                </div>
 
-        </form>
+            </form>
         </div>
     </div>
 
