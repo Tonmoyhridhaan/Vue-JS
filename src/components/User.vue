@@ -7,10 +7,7 @@
 
 <script>
 export default {
-   data(){
-       id: this.$route.params.id,
-       console.log(id);
-   },
+   
 }
 </script>
 

@@ -18,9 +18,6 @@
                 </tbody>
             </table>
         </div>
-        <div class="col-md-6-ml-3">
-            <router-view></router-view>
-        </div>
     </div>
 </template>
 
